@@ -51,7 +51,7 @@ export const viewport: Viewport = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body className="font-sans antialiased bg-black text-white">{children}</body>
+      <body className="font-sans antialiased bg-black text-white" suppressHydrationWarning>{children}</body>
     </html>
   );
 }
