@@ -125,7 +125,7 @@ export default function Home() {
           {/* Left Intro text */}
           <div className="max-w-md w-full">
             <p className="text-gray-400 text-lg leading-relaxed mb-12">
-              From full new builds to kitchen and bath remodels, RGV Remodeling & Construction brings the experience, skill and craftsmanship to turn your space into the place you've always pictured.
+              From full new builds to kitchen and bath remodels, RGV Remodeling & Construction brings the experience, skill and craftsmanship to turn your space into the place you&apos;ve always pictured.
             </p>
             <div className="flex items-center gap-6 group cursor-pointer w-fit">
               <div className="w-14 h-14 bg-[#F5921E] rounded-full flex items-center justify-center text-[#161514] group-hover:scale-110 transition-transform">
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="font-bold text-lg tracking-wider">FREE ESTIMATE</h4>
-                <p className="text-gray-500 text-sm">Let's talk about your project</p>
+                <p className="text-gray-500 text-sm">Let&apos;s talk about your project</p>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col mb-16">
             <div className="flex items-center gap-4 text-[#F5921E] font-bold tracking-widest text-sm mb-6">
-              <span className="text-[#F5921E] font-display font-black">//</span> OUR SERVICES
+              <span className="text-[#F5921E] font-display font-black">{'//'}</span> OUR SERVICES
             </div>
             <h2 className="font-display font-black text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none max-w-2xl">
               EVERYTHING YOUR PROJECT NEEDS
@@ -235,7 +235,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div>
               <div className="flex items-center gap-4 text-[#F5921E] font-bold tracking-widest text-sm mb-6">
-                <span className="text-[#F5921E] font-display font-black">//</span> SEE THE WORK
+                <span className="text-[#F5921E] font-display font-black">{'//'}</span> SEE THE WORK
               </div>
               <h2 className="font-display font-black text-5xl md:text-7xl tracking-tight leading-none">
                 OUR LATEST<br />
@@ -285,10 +285,10 @@ export default function Home() {
           {/* Left - Contact Info */}
           <div className="bg-[#F5921E] text-[#161514] p-12 md:p-24 flex flex-col justify-center">
             <h2 className="font-display font-black text-5xl md:text-7xl tracking-tight leading-none mb-12">
-              LET'S BUILD<br />IT.
+              LET&apos;S BUILD<br />IT.
             </h2>
             <p className="font-semibold text-lg max-w-md mb-12">
-              Tell us about your project and we'll get back to you fast with a free, no-obligation estimate.
+              Tell us about your project and we&apos;ll get back to you fast with a free, no-obligation estimate.
             </p>
             
             <div className="space-y-8 font-semibold">
@@ -319,7 +319,7 @@ export default function Home() {
           {/* Right - Form */}
           <div className="bg-[#161514] p-12 md:p-24 flex flex-col justify-center">
             <div className="flex items-center gap-4 text-[#F5921E] font-bold tracking-widest text-sm mb-8">
-              <span className="text-[#F5921E] font-display font-black">//</span> GET A FREE QUOTE
+              <span className="text-[#F5921E] font-display font-black">{'//'}</span> GET A FREE QUOTE
             </div>
             
             <form
